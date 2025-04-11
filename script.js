@@ -1,4 +1,4 @@
-fetch ('whatyearisit-backend-ka3o0s9vw-delphinevs-projects.vercel.app/year')
+fetch ('https://whatyearisit-backend-ka3o0s9vw-delphinevs-projects.vercel.app/year')
     .then(response => response.json())
     .then(data => {
         //if (data.year) {
